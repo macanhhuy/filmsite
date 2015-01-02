@@ -1,0 +1,3 @@
+xem_phim:
+    path:     /xem-phim/{id}
+    defaults: { _controller: AmceFilmBundle:Film:watch }
